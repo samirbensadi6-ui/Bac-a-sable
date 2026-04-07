@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: inter;
+    font-size: 22px;
+
+}
+
+.btn-solid1 {
+    border: solid;
+    color: black;
+}
+
+.btn-dashed1 {
+    border: dashed 5px;
+    color: black;
+}
+
+.btn-radius-green {
+    background-color: #61FF7B;
+    border-radius: 32px;
+    color: black;
+}
+
+.btn-bizarre {
+    border-radius: 0px 32px 0px 32px;
+}
+
+.btn-lieu {
+    background-color: #1398A0;
+    color: white;
+    border-radius: 32px;
+}
+
+.border-radius-bleu {
+    border-radius: 8px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*modele carte css*/
+
+.btn-plage {
+    background-color: #1398A0;
+    border-radius: 8px;
+    color: white;
+}
+
+.w100 {
+     width:100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+   background-color: aqua;
+   padding: 8px ;
+   width:28%;
+   border-radius: 16px;
+   font-family: "inter", sans-serif;
+   box-shadow: 2px 2px 15px rgb(201, 201, 201);
+}
+/*flex pour aligner des blocks*/
+.space-around {
+    justify-content: space-around;
+}

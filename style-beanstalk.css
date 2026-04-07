@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Pahawh+Hmong&display=swap');
+
+h1{
+    font-family: "Noto Sans Pahawh Hmong", ui sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.bg {
+    background-image: url("asset/photobasique.jpg");
+    background-position: center;
+}
+
+
+
+.txt-center{
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: green;
+    border-radius: 20px;
+    color: black;
+    padding: 9px 18px;
+    display: inline-block;
+}
