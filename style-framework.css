@@ -1,0 +1,116 @@
+/* RESET*/
+
+* {
+    margin: 0; /*pas de marges par defaut*/
+    padding: 0; /*pas de padding par defaut*/
+    box-sizing: border-box; /*border-box; ne change pas la taille si j'ajoute des borders, je garde le controle de ma boite */
+}
+
+.decoration-none {
+    text-decoration: none; /*retirer la ligne sous le texte*/
+}
+
+.list-type.none {
+    list-style-type: none; /*retirer la puce des listes */
+}
+
+.bold {
+    font-weight: 800; /* mettre en gras*/
+}
+
+.text-center {
+    text-align: center; /* centrer le texte surtout pour les titres*/
+}
+
+.uppercase {
+    text-transform: uppercase; /* mettre en majuscule*/
+}
+
+/* LARGEURS */
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-48 {
+    width: 48%;
+}
+.w-30 {
+    width: 30%;
+}
+
+.w-25 {
+ width: 25%;
+}
+
+.w-20 {
+    width: 20%;
+}
+/* Les Flex box */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+/* MARGIN ET PADDING */
+
+.margin-t-16 {
+    margin-top: 16px;
+}
+
+.margin-b-32 {
+    margin-bottom: 32px;
+}
+
+.margin-t-128 {
+    margin-top: 128px;
+}
+
+.padding-t-16 {
+    padding-top: 16px;
+}
+
+.padding-b-128 {
+    padding-bottom: 128px;
+}
+
+/* CONTAINER pour que ca s'adapte a tous type d'écrans */
+
+.container-1200 {
+    max-width: 1200px;
+    width: 100%;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+
+.bg-green {
+    background-color: green;
+}
